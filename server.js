@@ -10,11 +10,11 @@ const connection = mysql.createConnection({
     // your username
     user: 'root',
     // your password
-    password: 'PlacePassWordHere',
+    password: 'Ilovecfc123!',
     database: 'employeesDB'
 });
 
-connection.connect(function (err) {
+connection.connect(function(err) {
     if (err) throw err;
     console.log("connected as id " + connection.threadId);
     console.log(`
